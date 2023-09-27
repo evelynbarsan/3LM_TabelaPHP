@@ -4,11 +4,13 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        roxo:'#6701a6',
-        violeta:'#8b10ae',
-        cinzaClaro:'#d8d4d4',
-        cinza:'#9b9b9b',
-        grafite:'#4d4e50',
+          laranja_1:'#f38f32',
+          laranja_2:'#f39200',
+          laranja_3:'#ce8414',
+          cinzaClaro:'#efefef',
+          cinza:'#878787',
+          grafite:'#1d1d1b',
+          verde:'#13a538',
       },
     },
   },
