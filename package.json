@@ -1,0 +1,19 @@
+{
+  "name": "3lm_tabelaphp",
+  "version": "1.0.0",
+  "description": "Projeto para processo seletivo devJr",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eveffc/3ML_tabelaphp.git"
+  },
+  "author": "Evelyn Santos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eveffc/3ML_tabelaphp/issues"
+  },
+  "homepage": "https://github.com/eveffc/3ML_tabelaphp#readme"
+}
