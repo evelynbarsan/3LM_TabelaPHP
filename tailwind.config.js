@@ -1,6 +1,8 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./src/**/*.{html,js}"],
+  content: [
+    './pages/**/*.{html,js}','./components/**/*.{html,js}',
+  ],
   theme: {
     extend: {
       colors: {
@@ -12,6 +14,19 @@ module.exports = {
           grafite:'#1d1d1b',
           verde:'#13a538',
       },
+      spacing:{
+        '450':'450px',
+      },
+      gridRowStart:{
+        '9':'9',
+        '10':'10',
+        '11':'11',
+        '12':'12',
+      },
+      gridTemplateRows:{
+        '12': 'repeat(12, minmax(0, 1fr))',
+        '20': 'repeat(20, minmax(0, 1fr))',
+      }
     },
   },
   plugins: [],
