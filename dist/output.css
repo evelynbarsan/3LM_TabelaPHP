@@ -574,6 +574,10 @@ video {
   grid-column-start: 2;
 }
 
+.row-span-3 {
+  grid-row: span 3 / span 3;
+}
+
 .row-start-2 {
   grid-row-start: 2;
 }
@@ -664,6 +668,18 @@ video {
   margin-top: 2.5rem;
 }
 
+.mb-9 {
+  margin-bottom: 2.25rem;
+}
+
+.mb-10 {
+  margin-bottom: 2.5rem;
+}
+
+.mb-20 {
+  margin-bottom: 5rem;
+}
+
 .flex {
   display: flex;
 }
@@ -686,6 +702,18 @@ video {
 
 .h-11 {
   height: 2.75rem;
+}
+
+.h-80 {
+  height: 20rem;
+}
+
+.h-60 {
+  height: 15rem;
+}
+
+.h-40 {
+  height: 10rem;
 }
 
 .w-325 {
