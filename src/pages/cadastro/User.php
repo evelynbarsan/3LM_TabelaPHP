@@ -9,6 +9,7 @@
         <link href="../../../dist/output.css" rel="stylesheet">
         <script src="../../Scripts/ScriptClick.js"></script>
         <script src="../../Scripts/ScriptPage.js"></script>
+        <script src="../../Scripts/ScriptSelectOpcoes.js"></script>
         <link rel="icon" href="../../../assets/img/Icon.svg">
         <title>Novo usuário</title>
     </head>
@@ -29,9 +30,9 @@
                 <input class="h-10 w-325 mr-5 mt-4" type="text" id="nome" name="nome" placeholder="Nome" required>
                 <input class="h-10 w-325" type="text" id="sobrenome" name="sobrenome" placeholder="Sobrenome" required>
             </div>
-            <select class="col-start-4 col-span-6 row-start-6 text-cinza h-10 w-675 mt-7" id="cargo" name="cargo" > //adicionar o requirede depois
-                <option value="" disabled selected>Cargo</option>
-            </select>
+
+            <select class="col-start-4 col-span-6 row-start-6 text-cinza h-10 w-675 mt-7" id="cargo" name="cargo" required></select>
+            
             <div class="col-start-4 col-span-6 row-start-7 text-cinza">
                 <input class="h-10 w-325 mr-5 mt-10" type="date" id="nascimento" name="nascimento" placeholder="Data de nasc.">
                 <input class="h-10 w-325" type="number" id="salario" name="salario" placeholder="Salário">
